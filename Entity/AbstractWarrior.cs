@@ -4,7 +4,7 @@ namespace Sources.Entity
 {
     public abstract class AbstractWarrior : IHealth, IStamina, IDamage, IAttack
     {
-        private float _maxHealth;
+        private float _maxHealth;//
         private float _health;
         private float _maxStamina;
         private float _stamina;
